@@ -1,0 +1,45 @@
+@import '_colors';
+@import "bootstrap/scss/bootstrap.scss";
+
+.btn-primary {
+    background-color: $btn-primary-color;
+}
+
+// @mixin marginBottom($bottom) {
+//     margin-bottom:$bottom;
+// }
+
+@mixin boxShadow($h-offset,$v-offset,$blur,$spread,$color){
+    box-shadow: $h-offset $v-offset $blur $spread $color;
+}
+
+.container {
+    div {
+        div {
+            img {
+                @include boxShadow(5px,10px,9px,0px,#888888);
+            }
+        }
+    }
+}
+
+.footer {
+    background-color: $footer-bg;
+    padding:15px;
+}
+
+.has-error {
+    box-shadow: 0 0 24.5px 15px red;
+    transition: box-shadow 0.3s ease-in-out;
+}
+.list-group-item {
+    background-color: #888888;
+}
+
+ 
+@media only screen 
+and (max-width : 767px) {
+    .nav-item a {
+                       color: white !important
+                 }
+}

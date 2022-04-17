@@ -1,0 +1,10 @@
+{
+	"allRepositories": [
+		"assignments", "bootstrap-assignment", "BOOTSTRAP-SASS-BOILERPLATE", "exercises", "git-bot-assignment",
+		"git-repo", "git-repoxyz", "my-first-webpage", "webpack-bootstrap-boilerplate"
+	],
+	"allIssues":[
+		"test1","test2","test3","test4","test5"
+	],
+	"allCommands":["create repository","create issue","display issues"]
+}
